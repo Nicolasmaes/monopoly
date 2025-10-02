@@ -137,3 +137,22 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# pnpm
+.pnpm-store
+.pnpm-debug.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Docker (local volumes & overrides)
+/docker-data/
+docker-compose.override.yml
+
+# Package managers lockfiles (keep only pnpm-lock.yaml)
+yarn.lock
+package-lock.json
+
